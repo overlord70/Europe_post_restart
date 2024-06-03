@@ -151,3 +151,40 @@
         border: 2px solid rgba(149, 164, 170, 1)
     }
 }
+
+#four{
+    padding-block: 50px;
+    background-color: rgb(242, 242, 242);
+    .red_body_calculation{
+        width: 1,322px;
+        height: 554px;
+        padding: 48px 48px 48px 138px;
+        border-radius: 16px;
+        background: rgba(234, 12, 12, 1);
+        .one_side_of_block{
+            h2{
+                width: 520px;
+                font-size: 40px;
+                font-weight: 800;
+                line-height: 48px;
+                color: white;
+            }
+            ul{
+                margin-top: 40px;
+                width: 504px;
+                color: white;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 22.4px;
+                li{
+                    margin-block: 20px;
+                }
+            }
+        }
+        .the_other_side_of_block{
+            img{
+                max-width: 87%;
+            }
+        }
+    }
+}
