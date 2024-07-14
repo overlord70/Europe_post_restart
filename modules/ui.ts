@@ -271,7 +271,15 @@ export function create_header() {
     if(user){
         name_p.innerHTML = user.name.slice(0, 1)
     }
+    round.onclick = () => {
+        let answer = confirm('Do you want to sign out?');
 
+        if(answer === true){
+            location.reload()
+            localStorage.clear()
+        }
+        
+    }
 
     dialog2.appendChild(signUpForm2);
 
@@ -355,15 +363,13 @@ export function create_header() {
                         .then(() => {
                             localStorage.setItem('user', JSON.stringify(obj))
                             alert('Registration successful!');
+                            location.reload()
                         })
                         .catch( () => {
-                            alert('Registration failed. Please try again later.');
+                            alert('Registration failed. Please try again!');
                         });
                 }
             })
-            .catch( () => {
-                alert('Failed to fetch user data. Please try again later.');
-            });
         
         }
     }
@@ -386,10 +392,10 @@ export function create_header() {
             http.getData('/users')
             .then(res => {
                 const found_item = res.find((item: User) => item.email === email && item.password === password)
-                console.log(found_item);
                 if(found_item){
                     localStorage.setItem('user', JSON.stringify(found_item))
                     alert('success')
+                    location.reload()
                 } else {
                     alert('regist')
                 }
@@ -397,11 +403,12 @@ export function create_header() {
         }
     }
 
-    
-
     if(user){
         round.style.display = 'block'
         sign_apliences.remove()
-        return
+    } else {
+        round.style.display = 'none'
+        sign_apliences
     }
+   
 }
