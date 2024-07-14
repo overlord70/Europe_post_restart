@@ -1,24 +1,24 @@
-.footer{
+.footer {
     padding: 20px;
     max-width: 1920px;
     margin: 0 auto;
     background: rgba(30, 33, 34, 1);
-    .inf{
+    .inf {
         display: flex;
         align-items: center;
         justify-content: space-between;
         color: white;
-        .grid{
+        .grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 20px;
             row-gap: 10px;
-            a{
+            a {
                 color: white;
                 text-decoration: none;
             }
         }
-        .flex_new{
+        .flex_new {
             margin-top: 10px;
             display: flex;
             align-items: center;
