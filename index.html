@@ -31,31 +31,18 @@
                             <input placeholder="Вставить ссылку на товар" type="text">
                             <button class="order" id="order">Заказать</button>
                         </form>
-
                     </div>
-
                     <div class="second_side">
-
                         <img src="/public/svg/slides.svg" alt="">
-
                     </div>
-
                 </div>
-
             </div>
-
         </section>
-
         <section class="two" id="two">
-
             <div class="wrap">
-
                 <div class="flex">
-
                     <div class="article">
-
                         <div class="red" id="red"></div>
-
                         <h2>Как это работает</h2>
                     </div>
                     <img src="/public/svg/message.svg" alt="">
@@ -140,6 +127,7 @@
         <section class="four" id="four">
             <div class="wrap">
                 <div class="red_body_calculation">
+                  <img id="calculator" src="/public/img/image 10.png" alt="">
                     <div class="flex">
                         <div class="one_side_of_block">
                             <h2>
@@ -151,17 +139,116 @@
                                 <li>Комиссия сервиса для товаров без фактуры VAT стоимостью от 250zl: 15%</li>
                             </ul>
                         </div>
-                        <div class="the_other_side_of_block">\
-                            <img src="/public/img/calculator.png" alt="">
+                        <div class="the_other_side_of_block">
+                            <form class="about_price" name="about_price">
+                              <input id="cost" name="cost" type="text" placeholder="Цена*, zł*">
+                              <input id="delivery" name="delivery" type="text" placeholder="Доставка*, zł.*">
+                              <button id="deem">Расчитать</button>
+                            </form>
+                            <div class="line"></div>
+                            <div class="grid">
+                              <p class="one">Сумма, zł   1234,56</p>
+                              <p class="one">Сумма, ₴    1234,56</p>
+                              <div class="flex_2">
+                                <input type="checkbox">
+                                <p>На товар (новый или б/у) не выставляется фактура VAT <br> (добавляется 15% комиссия)</p>
+                              </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
         <section class="five" id="five">
-            <div class="wrap"></div>
+            <div class="wrap">
+              <div class="article">
+                <div class="red" id="red"></div>
+                <h2>Мы доставляем из</h2>
+              </div>
+              <div class="coutries">
+                <p>Польша   <span>от 0,00 USD</span></p>
+                <p>Германии <span>от 0,00 USD</span></p>
+                <p>Франции  <span>от 0,00 USD</span></p>
+                <p>Польша   <span>от 0,00 USD</span></p>
+                <p>Германии <span>от 0,00 USD</span></p>
+                <p>Франции  <span>от 0,00 USD</span></p>
+                <p>Польша   <span>от 0,00 USD</span></p>
+                <p>Польша   <span>от 0,00 USD</span></p>
+                <p>Польша   <span>от 0,00 USD</span></p>
+                <p>Германии <span>от 0,00 USD</span></p>
+                <p>Франции  <span>от 0,00 USD</span></p>
+                <p style="color: red;">Польша   <span>от 0,00 USD</span></p>
+                <p>Польша   <span>от 0,00 USD</span></p>
+                <p>Германии <span>от 0,00 USD</span></p>
+                <p>Польша   <span>от 0,00 USD</span></p>
+                <p>Польша   <span>от 0,00 USD</span></p>
+                <p>Франции  <span>от 0,00 USD</span></p>
+                <p>Германии <span>от 0,00 USD</span></p>
+              </div>
+              <img class="map" src="/public/img/map.png" alt="">
+            </div>
         </section>
+        <section class="six">
+          <div class="wrap">
+            <div class="article">
+              <div class="red" id="red"></div>
+              <h2>Каталог магазинов</h2>
+            </div>
+            <div class="flex_ads">
+              
+            </div>
+          </div>
+        </section>
+        <footer class="footer">
+          <div class="wrap">
+            <div class="inf">
+              <div>
+                <img src="/public/img/Polygon Logo.png" alt="">
+                <p style="margin-top: 30px;">Copyright © 2022  Poland24.com.ua. <br>Все права защищены.</p>
+              </div>
+              <div>
+                <h2>Навигация</h2>
+                <div class="grid">
+                  <a href="#">О компании</a>
+                  <a href="#">FAQ</a>
+                  <a href="#">Доставка из магазинов Европы</a>
+                  <a href="#">Товар на складе в Украине</a>
+                  <a href="#">Список магазинов</a>
+                  <a href="#">Правили магазина</a>
+                  <a href="#">Отзывы</a>
+                </div>
+              </div>
+              <div>
+                <h3>Мы в соц.сетяц:</h3>
+                <img src="/public/img/Frame 560.png" alt="">
+              </div>
+              <div>
+                <h3>Контакты</h3>
+
+                <div class="flex_new">
+                  <img src="/public/svg/location.svg" alt="">                  
+                  <p>Украина, Жовква, ул. Набержная, 1</p>
+                </div>
+
+                <div class="flex_new">
+                  <img src="/public/svg/time.svg" alt="">                
+                  <p>Время работы с 10:00 до 19:00</p>
+                </div>
+
+                <div class="flex_new">
+                  <img src="/public/svg/phone.svg" alt="">
+                  <p>+38 (093) 496 58 00  </p>
+                </div>
+
+                <div class="flex_new">
+                  <img src="/public/svg/email.svg" alt="">
+                  <p>poland24.com.ua</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </footer>
         <script type="module" src="./src/main.ts"></script>
     </body>
 </html>
