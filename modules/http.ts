@@ -1,9 +1,7 @@
 import axios from 'axios'
-
   
 export class MakeRequest {
     baseURL = 'http://localhost:8080'
-
     async getData(path:string) {
         try {
             const res = await axios.get(this.baseURL + path)
