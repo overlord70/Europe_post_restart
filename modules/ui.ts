@@ -1,5 +1,6 @@
 import {MakeRequest} from "./http"
 import {User} from "../src/types"
+import "toaster-js/default.scss"
 
 const http = new MakeRequest()
 
@@ -504,9 +505,11 @@ export function create_header() {
                     if (found_item) {
                         localStorage.setItem('user', JSON.stringify(found_item))
                         alert('success')
-                        location.reload()
+                       setTimeout(() => {
+                          location.reload()
+                       }, 300);
                     } else {
-                        alert('regist')
+                        alert('fail')
                     }
                 })
         }
@@ -520,6 +523,13 @@ export function create_header() {
         sign_apliences
     }
 
+    const make_an_order = document.createElement('dialog')
+    make_an_order.classList.add('make_an_order')
+    
+    place_order__apliences.onclick = () => {
+        make_an_order.showModal()
+    }
+
 }
 
 export function auto_reload(place : HTMLElement, text: string) {
@@ -527,3 +537,5 @@ export function auto_reload(place : HTMLElement, text: string) {
         place.innerHTML += `${text}`
     }
 }
+
+alert

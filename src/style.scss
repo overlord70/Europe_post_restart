@@ -1,5 +1,7 @@
 @use "/modules_scss/header.scss";
 @use '/modules_scss/footer.scss';
+@use "/modules_scss/dialog_of_order.scss";
+
 .flex {
     display: flex;
     justify-content: space-between;

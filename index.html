@@ -264,11 +264,71 @@
                             <img src="/public/svg/email.svg" alt="">
                             <p>poland24.com.ua</p>
                         </div>
-
                     </div>
                 </div>
             </div>
         </footer>
+
+        <dialog class="make_an_order" >
+            <div class="wrap">
+                <div class="article">
+                    <h2>Сделать заказ</h2>
+                    <img src="/public/svg/close.svg" alt="">
+                </div>
+                <p class="order">Заказ</p>
+                <div class="line"></div>
+                <form name="ordering_process" class="ordering_process">
+                    <div class="flexy">
+                        <div class="one">
+                            <p class="item_one">Товар 1</p>
+                            <input placeholder="Вставте ссылку на товар" type="text">
+                        </div>
+                        <div class="two">
+                            <p>К-во</p>
+                            <div class="counter">
+                                <button class="plus">+</button>
+                                <p>1</p>
+                                <button class="minus">-</button>
+                            </div>
+                        </div>
+                        <div class="threep">
+                            <p class="euro">Стоимость, €</p>
+                            <div class="cost">
+                                <p>254212,00</p>
+                            </div>
+                        </div>
+                        <div class="fourp">
+                            <p class="euro">Доставка, €</p>
+                            <div class="cost">
+                                <p>254212,00</p>
+                            </div>
+                        </div>
+                        <div class="fivep">
+                            <p>Цена в , 'zł</p>
+                            <div class="flexible">
+                                  <label class="switch">
+                                    <input type="checkbox">
+                                    <span class="slider round"></span>
+                                  </label>
+                                  <img src="/public/img/question.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tick_flex">
+                        <input type="checkbox">
+                        <p>Товар б/у (комиссия 15%, предоплата 100%, у продавца должен быть вариант оплаты PayU)</p>
+                    </div>
+                    <div class="comments">
+                        <div class="grid_comments">
+                            <div class="first_regularity">
+                                <p class="comments_towards_item">Комментарий к товару</p>
+                                <input placeholder="Описание" type="text">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </dialog>
         <script type="module" src="./src/main.ts"></script>
     </body>
 </html>
