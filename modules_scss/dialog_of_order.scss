@@ -192,6 +192,7 @@
         }
         .comments{
             .grid_comments{
+                margin-top: 15px;
                 display: grid;
                 grid-template-columns: repeat(3, 1fr);
                 .first_regularity{
@@ -201,6 +202,7 @@
                         line-height: 14px;
                     }
                     input{
+                        margin-top: 5px;
                         width: 716px;
                         height: 87px;
                         background: rgba(242, 242, 242, 1);
