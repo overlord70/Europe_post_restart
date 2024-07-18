@@ -525,7 +525,7 @@ export function create_header() {
 
     const make_an_order = document.createElement('dialog')
     make_an_order.classList.add('make_an_order')
-    
+
     place_order__apliences.onclick = () => {
         make_an_order.showModal()
     }
@@ -538,4 +538,6 @@ export function auto_reload(place : HTMLElement, text: string) {
     }
 }
 
-alert
+function toaster() {
+    
+}
