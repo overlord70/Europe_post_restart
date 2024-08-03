@@ -1,3 +1,4 @@
+import { isCancel } from "axios";
 import {MakeRequest} from "../modules/http";
 import {create_header, auto_reload} from "../modules/ui"
 import { Text } from "./types";
