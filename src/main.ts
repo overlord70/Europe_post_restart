@@ -9,6 +9,6 @@ create_header()
 auto_reload(flex_ads, Text)
 
 function hi() {
-    print()
+    // print()
 }
 hi()
