@@ -1,13 +1,22 @@
 {
-    "users": [
-        {
-            "id": "6101",
-            "name": "Sardor",
-            "email": "smukhitdinov471@gmail.com",
-            "surname": "998978921909",
-            "password": "9090",
-            "password_cheking": "9090",
-            "checkbox": "on"
-        }
-    ]
+  "users": [
+    {
+      "id": "6101",
+      "name": "Sardor",
+      "email": "smukhitdinov471@gmail.com",
+      "surname": "998978921909",
+      "password": "9090",
+      "password_cheking": "9090",
+      "checkbox": "on"
+    },
+    {
+      "id": "7d1e",
+      "name": "Farzod",
+      "email": "dsarifkulo021@gmail.com",
+      "surname": "998978921909",
+      "password": "farik888",
+      "password_cheking": "farik888",
+      "checkbox": "on"
+    }
+  ]
 }
