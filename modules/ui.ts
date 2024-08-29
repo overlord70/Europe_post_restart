@@ -539,7 +539,7 @@ export function auto_reload(place : HTMLElement, text: string) {
 }
 
 function toaster() {
-    // const body_of_toster = document.createElement('div')
-    // const smth = document.createElement('div')
+    const body_of_toster = document.createElement('div')
+    const smth = document.createElement('div')
 
 }
