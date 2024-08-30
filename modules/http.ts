@@ -1,7 +1,9 @@
 import axios from 'axios'
   
 export class MakeRequest {
+
     baseURL = 'http://localhost:8080'
+
     async getData(path:string) {
         try {
             const res = await axios.get(this.baseURL + path)
@@ -14,6 +16,7 @@ export class MakeRequest {
             return e
         }
     }
+
     async postData(path:string, body: any) {
         try {
             const res = await axios.post(this.baseURL + path, body)
@@ -26,6 +29,7 @@ export class MakeRequest {
             return e
         }
     }
+
     async patchData(path:string, body: any) {
         try {
             const res = await axios.patch(this.baseURL + path, body)
@@ -38,6 +42,7 @@ export class MakeRequest {
             return e
         }
     }
+
     async deleteData(path:string) {
         try {
             const res = await axios.delete(this.baseURL + path)

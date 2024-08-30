@@ -9,7 +9,7 @@ export type User = {
   checkbox: boolean;
 }
 
-export const Text = `
+export const Background_code = `
 <div class="broshure">
 <div style="background:${getRGB()};" class="grey">
   <img  src="/public/img/image 9.png" alt="">

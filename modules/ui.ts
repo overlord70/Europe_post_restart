@@ -541,5 +541,7 @@ export function auto_reload(place : HTMLElement, text: string) {
 function toaster() {
     const body_of_toster = document.createElement('div')
     const smth = document.createElement('div')
-
+    body_of_toster.classList.add('body_of_toster')
+    smth.className = 'should be deleted'
 }
+toaster()
